@@ -1,33 +1,75 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(112, 9, 247));
+}
+
+.imgs {
+    width: 370px;
+    height: 550px;
+    margin: 30px;
+    border: solid 4px grey;
 }
 
 h1 {
     text-align: center;
-    color: red;
+    color: rgb(255, 255, 255);
     font-family: sans-serif;
-}
-
-.img1 {
-    width: 1500px;
-    height: 800px;
-    margin: 50px;
-    margin-left: 200px;
-    margin-right: 150px;
+    font-size: 50px;
 }
 
 h2 {
-    color: rgb(255, 251, 0);
     text-align: center;
-    font-family: cursive;
-}
-
-h3 {
     color: white;
-    font-family: cursive;
-    margin-left: 120px;
+    font-family: sans-serif;
 }
 
-.img2 {
-    margin-left: 30px;
+p {
+    margin: 30px;
+    color: white;
+    margin-left: 75px;
+    float: left;
+    font-family: Cambria;
+    font-size: 20px;
+}
+
+p2 {
+    margin: 30px;
+    color: white;
+    margin-left: 265px;
+    float: left;
+    font-family: Cambria;
+    font-size: 20px;
+}
+
+p3 {
+    margin: 30px;
+    color: white;
+    margin-left: 360px;
+    float: left;
+    font-family: Cambria;
+    font-size: 20px;
+}
+
+.vel {
+    margin: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: 110px;
+    float: left;
+    font-family: Cambria;
+    font-size: 20px;
+}
+
+.dr {
+    margin-left: 200px;
+}
+
+.morb {
+    margin-left: 275px;
+}
+
+.fr {
+    margin-left: 300px;
+}
+
+.st {
+    margin-left: 280px;
 }
