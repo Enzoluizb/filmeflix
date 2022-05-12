@@ -1,56 +1,56 @@
 <!DOCTYPE html>
+<html>
 <head>
   <meta charset="UTF-8" />
-  <title>Formulário de Login e Registro com HTML5 e CSS3</title>
+  <title>Cadastro de filme</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
   <div class="container" >
-    <a class="links" id="paracadastro"></a>
-    <a class="links" id="paralogin"></a>
      
     <div class="content">      
-      <!--FORMULÁRIO DE LOGIN-->
-      <div id="login">
+      <div id="tela_cad">
         <form method="post" action=""> 
-          <h1>Cadastro De Filmes</h1> 
+          <h1>Cadastro de Filmes</h1>
           <p> 
-            <label for="nome_login">Filme</label>
-            <input id="nome_login" name="nome_login" required="required" type="text" placeholder="insira"/>
+            <label for="titulo_filme">Título do Filme:</label>
+            <input id="titulo_filme" name="titulo_filme" required="required" type="text" placeholder="Insira aqui"/>
+          </p>
+          <p> 
+            <label for="elenco_filme">Elenco Principal:</label>
+            <input id="elenco_filme" name="elenco_filme" required="required" type="text" placeholder="Insira aqui" /> 
+          </p>
+          <p> 
+            <label for="sinopse_filme">Sinopse:</label>
+            <input id="sinopse_filme" name="sinopse_filme" required="required" type="text" placeholder="Insira aqui" /> 
+          </p>
+          <p> 
+            <label for="produtora_filme">Produtora do Filme:</label>
+            <input id="produtora_filme" name="produtora_filme" required="required" type="text" placeholder="Insira aqui" /> 
+          </p>
+          <p> 
+            <label for="duracao_filme">Duração:</label>
+            <input id="duracao_filme" name="duracao_filme" required="required" type="text" placeholder="Insira aqui" /> 
+          </p>
+          <p> 
+            <label for="indicacao_filme">Indicação Etária:</label>
+            <input id="indicacao_filme" name="indicacao_filme" required="required" type="text" placeholder="Insira aqui" /> 
           </p>
            
           <p> 
-            <label for="email_login">Elenco Principal</label>
-            <input id="email_login" name="email_login" required="required" type="text" placeholder="insira" /> 
+            <input type="checkbox" name="manterlogado" id="destaque" value="" /> 
+            <label for="destaque">Marcar como destaque</label>
           </p>
           <p> 
-            <label for="email_login">Sinopse</label>
-            <input id="email_login" name="email_login" required="required" type="text" placeholder="insira" /> 
+            <input type="submit" class="btn_verde" value="SALVAR"/> 
           </p>
           <p> 
-            <label for="email_login">Produtora do Filme</label>
-            <input id="email_login" name="email_login" required="required" type="text" placeholder="insira" /> 
+            <input type="submit" class="btn_cinza" value="CANCELAR"/> 
           </p>
-          <p> 
-            <label for="email_login">Duração</label>
-            <input id="email_login" name="email_login" required="required" type="text" placeholder="insira" /> 
-          </p>
-          <p> 
-            <label for="email_login">Indicação etária</label>
-            <input id="email_login" name="email_login" required="required" type="text" placeholder="insira" /> 
-          </p>
-          <P></P>
-          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-          <label for="vehicle1">Marcar como Destaque</label><br>
-          <P></P>
-          <p> 
-            <input type="submit" value="SALVAR" /> 
-          </p>
-          <p> 
-                <input type="submit1" value="CANCELAR" /> 
-              </p>
         </form>
       </div>
- 
-     
+    </div>
+  </div>  
+</body>
+</html>
