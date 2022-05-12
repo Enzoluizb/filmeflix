@@ -1,16 +1,18 @@
 .bot1 {
     color: white;
     background-color: red;
-    border: solid 2px white;
+    border: double 2px rgb(255, 0, 0);
     margin-left: 75px;
 }
 
 table {
     text-align: center;
     margin: 0 auto;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.863);
     margin-top: 30px;
     margin-right: 750px;
+    border: solid 3px white;
+    border-radius: 10px;
 }
 
 .right {
@@ -35,4 +37,10 @@ body {
     height: 750px;
     margin-left: 100px;
     float: left;
+}
+
+button {
+    color: rgb(0, 0, 0);
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 20px;
 }
