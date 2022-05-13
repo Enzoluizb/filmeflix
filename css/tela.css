@@ -6,7 +6,8 @@ body {
     width: 370px;
     height: 550px;
     margin: 30px;
-    border: solid 4px grey;
+    border: solid 4px rgb(255, 255, 255);
+    border-radius: 2px;
 }
 
 h1 {
