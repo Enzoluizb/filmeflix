@@ -7,14 +7,13 @@
 
 table {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.863);
-    margin-top: 100px;
-    margin-right: 800px;
+    background-color: rgba(255, 255, 255, 0.74);
+    margin-top: 35px;
     border: solid 3px white;
     border-radius: 10px;
-    float: center;
-    width: 500px;
-    height: 100px;
+    width: 900px;
+    height: 500px;
+    margin: 100px;
 }
 
 h1 {
@@ -42,6 +41,6 @@ button {
 }
 
 .but {
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(21, 253, 0);
     border-radius: 5px;
 }
