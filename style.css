@@ -12,7 +12,8 @@ body{
     width: 500px;
     min-height: 560px;    
     margin: 150px auto;
-    position: relative;   
+    position: relative;
+    margin-top: 50px;   
   }
   
   h1::before{
@@ -32,6 +33,7 @@ body{
     font-weight: bold;
     text-align: center;
     padding-bottom: 30px;
+    margin-top: 2px;
   }
   
   h1:after{
@@ -130,14 +132,14 @@ body{
   }
   
   #tela_cad{
-    position: absolute;
+    position: relative;
     top: 0px;
     width: 95%;   
     padding: 10px 10% 10px 6%;
     margin: 0 0 10px 0;
     background: #fefeff5b;
     border: 2px solid rgba(0, 0, 0, 0.8);
-    
+    margin-top: 1px;
 
     -webkit-box-shadow: 5px;
     border-radius: 5px;
