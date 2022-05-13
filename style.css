@@ -8,12 +8,12 @@ body{
     font-family: Arial,sans-serif;
   }
   
-  .content{
+  .contenier{
     width: 500px;
     min-height: 560px;    
     margin: 150px auto;
     position: relative;
-    margin-top: 50px;   
+    margin-top: 50px;  
   }
   
   h1::before{
@@ -48,9 +48,10 @@ body{
   p{
     margin-bottom:15px;
     font-size: 25px;
+    font-family: monospace;
   }
    
-  .content p:first-child{
+  .contenier p:first-child{
     margin: 0px;
   }
    
@@ -142,7 +143,7 @@ body{
     margin-top: 1px;
 
     -webkit-box-shadow: 5px;
-    border-radius: 5px;
+    border-radius: 20px;
      
     -webkit-animation-duration: 0.5s;
     -webkit-animation-timing-function: ease;
