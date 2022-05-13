@@ -59,7 +59,7 @@ body{
   
   /* placeholder */
   ::-webkit-input-placeholder  {
-    color: #343333; 
+    color: #474646; 
     font-style: italic;
   }
    
@@ -118,7 +118,7 @@ body{
   }
   
   .btn_cinza{
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(80, 79, 79);
     color: #fff;
   }
   .btn_cinza:hover{
