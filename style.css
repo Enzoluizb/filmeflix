@@ -142,7 +142,7 @@ body{
     border: 2px solid rgba(0, 0, 0, 0.8);
     margin-top: 1px;
 
-    -webkit-box-shadow: 5px;
+    
     border-radius: 20px;
      
     -webkit-animation-duration: 0.5s;
@@ -152,4 +152,4 @@ body{
     animation-duration: 0.5s;
     animation-timing-function: ease;
     animation-fill-mode: both;
-  }
+  } 
