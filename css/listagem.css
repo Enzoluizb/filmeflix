@@ -2,23 +2,23 @@
     color: white;
     background-color: red;
     border: double 2px rgb(255, 0, 0);
-    margin-left: 75px;
+    margin-left: 57px;
 }
 
 table {
     text-align: center;
-    margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.863);
-    margin-top: 30px;
-    margin-right: 750px;
+    margin-top: 100px;
+    margin-right: 800px;
     border: solid 3px white;
     border-radius: 10px;
+    float: center;
 }
 
 .right {
     float: right;
-    margin-right: 360px;
-    margin-top: 150px;
+    margin-right: 560px;
+    margin-bottom: 15px;
 }
 
 h1 {
@@ -42,5 +42,41 @@ body {
 button {
     color: rgb(0, 0, 0);
     border: solid 1px rgb(0, 0, 0);
-    border-radius: 20px;
+    border-radius: 15px;
+}
+
+.testebut {
+    margin: 30px;
+    float: right;
+    margin-right: 550px;
+    margin-top: -70px;
+}
+
+.testebut1 {
+    margin: 35px;
+    float: right;
+    margin-right: 530px;
+    margin-top: -70px;
+}
+
+.but2 {
+    margin: 35px;
+    float: right;
+    margin-right: 550px;
+    margin-top: -47px;
+}
+
+.but3 {
+    margin: 35px;
+    float: right;
+    margin-right: 550px;
+    margin-top: -31px;
+}
+
+.color1 {
+    background-color: rgb(0, 255, 13);
+}
+
+.color2 {
+    background-color: rgb(190, 190, 190);
 }
