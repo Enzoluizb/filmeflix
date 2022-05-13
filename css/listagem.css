@@ -13,6 +13,8 @@ table {
     border: solid 3px white;
     border-radius: 10px;
     float: center;
+    width: 500px;
+    height: 100px;
 }
 
 h1 {
@@ -39,9 +41,7 @@ button {
     border-radius: 15px;
 }
 
-.testebut {
-    margin: 30px;
-    float: right;
-    margin-right: 550px;
-    margin-top: -70px;
+.but {
+    background-color: rgb(190, 190, 190);
+    border-radius: 5px;
 }
